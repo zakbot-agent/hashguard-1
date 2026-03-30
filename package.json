@@ -1,0 +1,28 @@
+{
+  "name": "hashguard",
+  "version": "1.0.0",
+  "description": "Generate and verify file hashes (MD5, SHA1, SHA256, SHA512). Verify file integrity.",
+  "main": "dist/index.js",
+  "bin": {
+    "hashguard": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "hash",
+    "checksum",
+    "integrity",
+    "md5",
+    "sha256",
+    "sha512",
+    "cli"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "typescript": "^5.9.3"
+  }
+}
